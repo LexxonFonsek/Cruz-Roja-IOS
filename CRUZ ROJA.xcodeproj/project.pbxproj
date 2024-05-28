@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1F4E7B2C064C4C002ADFA2 /* Inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F4E7A2C064C4C002ADFA2 /* Inicio.storyboard */; };
+		3C1F4E7D2C0651F9002ADFA2 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F4E7C2C0651F9002ADFA2 /* Login.swift */; };
+		3C1F4E812C06559D002ADFA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F4E802C06559D002ADFA2 /* ContentView.swift */; };
 		3C80F9212BC5A706003A7B55 /* CRUZ_ROJAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80F9202BC5A706003A7B55 /* CRUZ_ROJAApp.swift */; };
-		3C80F9232BC5A706003A7B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80F9222BC5A706003A7B55 /* ContentView.swift */; };
+		3C80F9232BC5A706003A7B55 /* boton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80F9222BC5A706003A7B55 /* boton.swift */; };
 		3C80F9252BC5A706003A7B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C80F9242BC5A706003A7B55 /* Assets.xcassets */; };
 		3C80F9282BC5A706003A7B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C80F9272BC5A706003A7B55 /* Preview Assets.xcassets */; };
 		3C80F92F2BC5B860003A7B55 /* Inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C80F92E2BC5B860003A7B55 /* Inicio.storyboard */; };
 		3C80F9312BC5C08A003A7B55 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80F9302BC5C08A003A7B55 /* LocationViewModel.swift */; };
+		3CB282592C06688900DA6152 /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB282582C06688900DA6152 /* LoginEmailView.swift */; };
+		3CB2825B2C0669E100DA6152 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2825A2C0669E100DA6152 /* DismissView.swift */; };
+		3CB2825D2C066A4300DA6152 /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2825C2C066A4300DA6152 /* RegisterEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C1F4E7A2C064C4C002ADFA2 /* Inicio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Inicio.storyboard; sourceTree = "<group>"; };
+		3C1F4E7C2C0651F9002ADFA2 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = Escenas/Login.swift; sourceTree = SOURCE_ROOT; };
+		3C1F4E802C06559D002ADFA2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Cruz-Roja-IOS-main 2/CRUZ ROJA/ContentView.swift"; sourceTree = "<group>"; };
 		3C80F91D2BC5A706003A7B55 /* CRUZ ROJA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRUZ ROJA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C80F9202BC5A706003A7B55 /* CRUZ_ROJAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUZ_ROJAApp.swift; sourceTree = "<group>"; };
-		3C80F9222BC5A706003A7B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C80F9222BC5A706003A7B55 /* boton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boton.swift; sourceTree = "<group>"; };
 		3C80F9242BC5A706003A7B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C80F9272BC5A706003A7B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C80F92E2BC5B860003A7B55 /* Inicio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inicio.storyboard; sourceTree = "<group>"; };
 		3C80F9302BC5C08A003A7B55 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		3CB282582C06688900DA6152 /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
+		3CB2825A2C0669E100DA6152 /* DismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
+		3CB2825C2C066A4300DA6152 /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,13 @@
 			children = (
 				3C80F9202BC5A706003A7B55 /* CRUZ_ROJAApp.swift */,
 				3C80F9302BC5C08A003A7B55 /* LocationViewModel.swift */,
-				3C80F9222BC5A706003A7B55 /* ContentView.swift */,
+				3C1F4E7C2C0651F9002ADFA2 /* Login.swift */,
+				3CB2825C2C066A4300DA6152 /* RegisterEmailView.swift */,
+				3CB282582C06688900DA6152 /* LoginEmailView.swift */,
+				3CB2825A2C0669E100DA6152 /* DismissView.swift */,
+				3C80F9222BC5A706003A7B55 /* boton.swift */,
+				3C1F4E802C06559D002ADFA2 /* ContentView.swift */,
+				3C1F4E7A2C064C4C002ADFA2 /* Inicio.storyboard */,
 				3C80F92E2BC5B860003A7B55 /* Inicio.storyboard */,
 				3C80F9242BC5A706003A7B55 /* Assets.xcassets */,
 				3C80F9262BC5A706003A7B55 /* Preview Content */,
@@ -133,6 +151,7 @@
 			files = (
 				3C80F9282BC5A706003A7B55 /* Preview Assets.xcassets in Resources */,
 				3C80F92F2BC5B860003A7B55 /* Inicio.storyboard in Resources */,
+				3C1F4E7B2C064C4C002ADFA2 /* Inicio.storyboard in Resources */,
 				3C80F9252BC5A706003A7B55 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,8 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C80F9312BC5C08A003A7B55 /* LocationViewModel.swift in Sources */,
-				3C80F9232BC5A706003A7B55 /* ContentView.swift in Sources */,
+				3CB282592C06688900DA6152 /* LoginEmailView.swift in Sources */,
+				3CB2825D2C066A4300DA6152 /* RegisterEmailView.swift in Sources */,
+				3C80F9232BC5A706003A7B55 /* boton.swift in Sources */,
+				3C1F4E812C06559D002ADFA2 /* ContentView.swift in Sources */,
 				3C80F9212BC5A706003A7B55 /* CRUZ_ROJAApp.swift in Sources */,
+				3CB2825B2C0669E100DA6152 /* DismissView.swift in Sources */,
+				3C1F4E7D2C0651F9002ADFA2 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
