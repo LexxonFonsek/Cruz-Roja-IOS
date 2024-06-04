@@ -17,11 +17,7 @@ struct ContentView: View {
                 Image("cruz_icon")
                 Text("Boton Auxilio")
             }
-            Login()
-                .tabItem {
-                    Image(systemName: "person.crop.circle.fill")
-                    Text("Login")
-                }
+            
         }.accentColor(.green)
     }
 }

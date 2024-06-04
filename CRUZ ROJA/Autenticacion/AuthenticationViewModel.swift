@@ -20,11 +20,7 @@ final class AuthenticationViewModel: ObservableObject {
             }
         }
     }
-    // OBTENER USUARIO
-    init(authenticationRepository: AuthenticationRepository = AuthenticationRepository()) {
-        self.authenticationRepository = authenticationRepository
-        getCurrentUser()
-    }
+    // OBTENER USUARIO getCurrentUser()
     
     func getCurrentUser() {
         self.user = authenticationRepository.getCurrentUser()
