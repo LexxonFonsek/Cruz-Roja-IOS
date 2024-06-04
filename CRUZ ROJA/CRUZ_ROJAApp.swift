@@ -10,9 +10,16 @@ import CoreLocation
 @main
 
 struct CRUZ_ROJAApp: App {
+     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var authenticationViewModel = AuthenticationViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if let _ = authenticationViewModel.user {
+                HomeView(authenticationViewModel: authenticationViewModel)
+            } else {
+                AuthenticationView(authenticationViewModel: authenticationViewModel)
+            }
         }
     }
 }
