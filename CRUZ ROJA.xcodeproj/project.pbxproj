@@ -8,23 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		3C1F4E7B2C064C4C002ADFA2 /* Inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F4E7A2C064C4C002ADFA2 /* Inicio.storyboard */; };
-		3C1F4E7D2C0651F9002ADFA2 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F4E7C2C0651F9002ADFA2 /* Login.swift */; };
-		3C1F4E812C06559D002ADFA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F4E802C06559D002ADFA2 /* ContentView.swift */; };
+		3C5AA1EB2C0F92F900BD9FD7 /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1E72C0F92F900BD9FD7 /* LoginEmailView.swift */; };
+		3C5AA1EC2C0F92F900BD9FD7 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1E82C0F92F900BD9FD7 /* AuthenticationView.swift */; };
+		3C5AA1ED2C0F92F900BD9FD7 /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1E92C0F92F900BD9FD7 /* RegisterEmailView.swift */; };
+		3C5AA1EE2C0F92F900BD9FD7 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1EA2C0F92F900BD9FD7 /* AuthenticationViewModel.swift */; };
+		3C5AA1F22C0F930800BD9FD7 /* AuthenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1F02C0F930800BD9FD7 /* AuthenticationRepository.swift */; };
+		3C5AA1F32C0F930800BD9FD7 /* AuthenticationFirebaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1F12C0F930800BD9FD7 /* AuthenticationFirebaseDatasource.swift */; };
+		3C5AA1F52C0F931800BD9FD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1F42C0F931800BD9FD7 /* ContentView.swift */; };
+		3C5AA1F82C0F932A00BD9FD7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1F62C0F932A00BD9FD7 /* HomeView.swift */; };
+		3C5AA1F92C0F932A00BD9FD7 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AA1F72C0F932A00BD9FD7 /* DismissView.swift */; };
+		3C5AA1FC2C0F936600BD9FD7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5AA1FB2C0F936600BD9FD7 /* FirebaseAuth */; };
+		3C5AA2002C0F9EF100BD9FD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C5AA1FF2C0F9EF100BD9FD7 /* GoogleService-Info.plist */; };
+		3C5AA2042C0FA32300BD9FD7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3C5AA2032C0FA32300BD9FD7 /* FirebaseAnalytics */; };
 		3C80F9212BC5A706003A7B55 /* CRUZ_ROJAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80F9202BC5A706003A7B55 /* CRUZ_ROJAApp.swift */; };
 		3C80F9232BC5A706003A7B55 /* boton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80F9222BC5A706003A7B55 /* boton.swift */; };
 		3C80F9252BC5A706003A7B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C80F9242BC5A706003A7B55 /* Assets.xcassets */; };
 		3C80F9282BC5A706003A7B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C80F9272BC5A706003A7B55 /* Preview Assets.xcassets */; };
 		3C80F92F2BC5B860003A7B55 /* Inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C80F92E2BC5B860003A7B55 /* Inicio.storyboard */; };
 		3C80F9312BC5C08A003A7B55 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C80F9302BC5C08A003A7B55 /* LocationViewModel.swift */; };
-		3CB282592C06688900DA6152 /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB282582C06688900DA6152 /* LoginEmailView.swift */; };
 		3CB2825B2C0669E100DA6152 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2825A2C0669E100DA6152 /* DismissView.swift */; };
-		3CB2825D2C066A4300DA6152 /* RegisterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2825C2C066A4300DA6152 /* RegisterEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C1F4E7A2C064C4C002ADFA2 /* Inicio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Inicio.storyboard; sourceTree = "<group>"; };
-		3C1F4E7C2C0651F9002ADFA2 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = Escenas/Login.swift; sourceTree = SOURCE_ROOT; };
-		3C1F4E802C06559D002ADFA2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Cruz-Roja-IOS-main 2/CRUZ ROJA/ContentView.swift"; sourceTree = "<group>"; };
+		3C5AA1E72C0F92F900BD9FD7 /* LoginEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
+		3C5AA1E82C0F92F900BD9FD7 /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		3C5AA1E92C0F92F900BD9FD7 /* RegisterEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
+		3C5AA1EA2C0F92F900BD9FD7 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		3C5AA1F02C0F930800BD9FD7 /* AuthenticationRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationRepository.swift; sourceTree = "<group>"; };
+		3C5AA1F12C0F930800BD9FD7 /* AuthenticationFirebaseDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationFirebaseDatasource.swift; sourceTree = "<group>"; };
+		3C5AA1F42C0F931800BD9FD7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C5AA1F62C0F932A00BD9FD7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3C5AA1F72C0F932A00BD9FD7 /* DismissView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
+		3C5AA1FF2C0F9EF100BD9FD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3C80F91D2BC5A706003A7B55 /* CRUZ ROJA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRUZ ROJA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C80F9202BC5A706003A7B55 /* CRUZ_ROJAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUZ_ROJAApp.swift; sourceTree = "<group>"; };
 		3C80F9222BC5A706003A7B55 /* boton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boton.swift; sourceTree = "<group>"; };
@@ -32,9 +48,7 @@
 		3C80F9272BC5A706003A7B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C80F92E2BC5B860003A7B55 /* Inicio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inicio.storyboard; sourceTree = "<group>"; };
 		3C80F9302BC5C08A003A7B55 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
-		3CB282582C06688900DA6152 /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
 		3CB2825A2C0669E100DA6152 /* DismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissView.swift; sourceTree = "<group>"; };
-		3CB2825C2C066A4300DA6152 /* RegisterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +56,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5AA2042C0FA32300BD9FD7 /* FirebaseAnalytics in Frameworks */,
+				3C5AA1FC2C0F936600BD9FD7 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C5AA1E62C0F92F900BD9FD7 /* Autenticacion */ = {
+			isa = PBXGroup;
+			children = (
+				3C5AA1E72C0F92F900BD9FD7 /* LoginEmailView.swift */,
+				3C5AA1E82C0F92F900BD9FD7 /* AuthenticationView.swift */,
+				3C5AA1E92C0F92F900BD9FD7 /* RegisterEmailView.swift */,
+				3C5AA1EA2C0F92F900BD9FD7 /* AuthenticationViewModel.swift */,
+			);
+			path = Autenticacion;
+			sourceTree = "<group>";
+		};
+		3C5AA1EF2C0F930800BD9FD7 /* Repositorio */ = {
+			isa = PBXGroup;
+			children = (
+				3C5AA1F02C0F930800BD9FD7 /* AuthenticationRepository.swift */,
+				3C5AA1F12C0F930800BD9FD7 /* AuthenticationFirebaseDatasource.swift */,
+			);
+			path = Repositorio;
+			sourceTree = "<group>";
+		};
+		3C5AA2022C0FA32300BD9FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C80F9142BC5A706003A7B55 = {
 			isa = PBXGroup;
 			children = (
 				3C80F91F2BC5A706003A7B55 /* CRUZ ROJA */,
 				3C80F91E2BC5A706003A7B55 /* Products */,
+				3C5AA2022C0FA32300BD9FD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,16 +111,18 @@
 		3C80F91F2BC5A706003A7B55 /* CRUZ ROJA */ = {
 			isa = PBXGroup;
 			children = (
+				3C5AA1E62C0F92F900BD9FD7 /* Autenticacion */,
 				3C80F9202BC5A706003A7B55 /* CRUZ_ROJAApp.swift */,
 				3C80F9302BC5C08A003A7B55 /* LocationViewModel.swift */,
-				3C1F4E7C2C0651F9002ADFA2 /* Login.swift */,
-				3CB2825C2C066A4300DA6152 /* RegisterEmailView.swift */,
-				3CB282582C06688900DA6152 /* LoginEmailView.swift */,
 				3CB2825A2C0669E100DA6152 /* DismissView.swift */,
 				3C80F9222BC5A706003A7B55 /* boton.swift */,
-				3C1F4E802C06559D002ADFA2 /* ContentView.swift */,
+				3C5AA1F42C0F931800BD9FD7 /* ContentView.swift */,
+				3C5AA1F72C0F932A00BD9FD7 /* DismissView.swift */,
+				3C5AA1F62C0F932A00BD9FD7 /* HomeView.swift */,
 				3C1F4E7A2C064C4C002ADFA2 /* Inicio.storyboard */,
 				3C80F92E2BC5B860003A7B55 /* Inicio.storyboard */,
+				3C5AA1FF2C0F9EF100BD9FD7 /* GoogleService-Info.plist */,
+				3C5AA1EF2C0F930800BD9FD7 /* Repositorio */,
 				3C80F9242BC5A706003A7B55 /* Assets.xcassets */,
 				3C80F9262BC5A706003A7B55 /* Preview Content */,
 			);
@@ -107,6 +153,10 @@
 			dependencies = (
 			);
 			name = "CRUZ ROJA";
+			packageProductDependencies = (
+				3C5AA1FB2C0F936600BD9FD7 /* FirebaseAuth */,
+				3C5AA2032C0FA32300BD9FD7 /* FirebaseAnalytics */,
+			);
 			productName = "CRUZ ROJA";
 			productReference = 3C80F91D2BC5A706003A7B55 /* CRUZ ROJA.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +185,9 @@
 				Base,
 			);
 			mainGroup = 3C80F9142BC5A706003A7B55;
+			packageReferences = (
+				3C5AA1FA2C0F936600BD9FD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3C80F91E2BC5A706003A7B55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,6 +204,7 @@
 			files = (
 				3C80F9282BC5A706003A7B55 /* Preview Assets.xcassets in Resources */,
 				3C80F92F2BC5B860003A7B55 /* Inicio.storyboard in Resources */,
+				3C5AA2002C0F9EF100BD9FD7 /* GoogleService-Info.plist in Resources */,
 				3C1F4E7B2C064C4C002ADFA2 /* Inicio.storyboard in Resources */,
 				3C80F9252BC5A706003A7B55 /* Assets.xcassets in Resources */,
 			);
@@ -163,14 +217,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5AA1ED2C0F92F900BD9FD7 /* RegisterEmailView.swift in Sources */,
+				3C5AA1F82C0F932A00BD9FD7 /* HomeView.swift in Sources */,
+				3C5AA1F32C0F930800BD9FD7 /* AuthenticationFirebaseDatasource.swift in Sources */,
+				3C5AA1F52C0F931800BD9FD7 /* ContentView.swift in Sources */,
 				3C80F9312BC5C08A003A7B55 /* LocationViewModel.swift in Sources */,
-				3CB282592C06688900DA6152 /* LoginEmailView.swift in Sources */,
-				3CB2825D2C066A4300DA6152 /* RegisterEmailView.swift in Sources */,
+				3C5AA1EE2C0F92F900BD9FD7 /* AuthenticationViewModel.swift in Sources */,
+				3C5AA1EB2C0F92F900BD9FD7 /* LoginEmailView.swift in Sources */,
 				3C80F9232BC5A706003A7B55 /* boton.swift in Sources */,
-				3C1F4E812C06559D002ADFA2 /* ContentView.swift in Sources */,
+				3C5AA1EC2C0F92F900BD9FD7 /* AuthenticationView.swift in Sources */,
+				3C5AA1F92C0F932A00BD9FD7 /* DismissView.swift in Sources */,
+				3C5AA1F22C0F930800BD9FD7 /* AuthenticationRepository.swift in Sources */,
 				3C80F9212BC5A706003A7B55 /* CRUZ_ROJAApp.swift in Sources */,
 				3CB2825B2C0669E100DA6152 /* DismissView.swift in Sources */,
-				3C1F4E7D2C0651F9002ADFA2 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CRUZ ROJA/Preview Content\"";
+				DEVELOPMENT_TEAM = JX5F8T8FWF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se accederá a tu ubicación para mostrarla en el mapa y al pulsar el botón de auxilio se enviara a la Cruz Roja mas cercana a ti para tu ayuda";
@@ -328,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CRUZ ROJA/Preview Content\"";
+				DEVELOPMENT_TEAM = JX5F8T8FWF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se accederá a tu ubicación para mostrarla en el mapa y al pulsar el botón de auxilio se enviara a la Cruz Roja mas cercana a ti para tu ayuda";
@@ -371,6 +432,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C5AA1FA2C0F936600BD9FD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C5AA1FB2C0F936600BD9FD7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5AA1FA2C0F936600BD9FD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3C5AA2032C0FA32300BD9FD7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C5AA1FA2C0F936600BD9FD7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C80F9152BC5A706003A7B55 /* Project object */;
 }
