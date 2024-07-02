@@ -1,13 +1,12 @@
 import SwiftUI
-import CoreLocation
-import MapKit
+
 
 struct HomeView: View {
     @ObservedObject var authenticationViewModel: AuthenticationViewModel
-    @StateObject var locationViewModel = LocationViewModel()
-    
+
     var body: some View {
         NavigationView {
+            
             VStack {
                 
                 Button(action: {
@@ -30,33 +29,23 @@ struct HomeView: View {
                     .fontWeight(.black)
                     .foregroundColor(Color.red)
                     .padding(50.0)
-                Text("BOTON DE AUXILIO")
-                    .font(.body)
-                    .fontWeight(.black)
-                    .foregroundColor(Color.red)
-                    .padding(0.0)
-                
-                
-                
-                    .padding()
-                Map(coordinateRegion: $locationViewModel.userLocation, showsUserLocation: true)
-                    .ignoresSafeArea()
-                if locationViewModel.userHasLocation{
-                    Text("Localizacion Aceptada")
-                        .bold()
-                        .padding(.top, 12)
-                    Link("Pulsa para cambiar la autorizacion de Localización ", destination: URL(string: UIApplication.openSettingsURLString)!)
-                        .padding(32)
-                }else{
-                    Text("Localizacion NO Aceptada")
-                        .bold()
-                        .padding(.top, 12)
-                    Link("Pulsa para cambiar la autorizacion de Localizacion ", destination: URL(string: UIApplication.openSettingsURLString)!)
-                        .padding(32)
-                }
+                List {
+                                NavigationLink("Boton de Auxilio",
+                                               destination: Boton())
+                    
+                                NavigationLink("Consultas",
+                                               destination: Boton())
+                                
+                                NavigationLink("Informacion",
+                                   destination: Boton())
+                    
+                                NavigationLink("Dengue",
+                                   destination: Boton())
+                            }
             }
-            .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("CRUZ ROJA")
+            .navigationBarTitleDisplayMode(.automatic)
+                        .navigationBarHidden(false)
+                        
             .toolbar {
                 Button("Cerrar Sesion") {
                     authenticationViewModel.logout()
