@@ -2,9 +2,9 @@ import FirebaseFirestore
 import FirebaseFirestoreSwift
 
 
-struct RegisterViewModel: Decodable, Identifiable {
+struct RegistroModel: Decodable, Identifiable {
     @DocumentID var id: String?
-    let apellidom: String
+    let apellidop: String
     let apellidom: String
     let curp: String
     let nacimiento: String
@@ -12,5 +12,4 @@ struct RegisterViewModel: Decodable, Identifiable {
     let nss: String
     let sexo: String
     let telefono: String
-    
 }
